@@ -28,10 +28,11 @@ open class MessageReusableView: UICollectionReusableView {
 
     // MARK: - Initializers
 
-    public override init(frame: CGRect) {
+    public required override init(frame: CGRect) {
         super.init(frame: frame)
     }
 
+    @available(*, unavailable)
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
