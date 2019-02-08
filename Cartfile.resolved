@@ -1,3 +1,3 @@
-github "MessageKit/MessageInputBar" "0.4.0"
-github "Quick/Nimble" "v7.3.1"
-github "Quick/Quick" "v1.3.2"
+github "Quick/Nimble" "v7.3.3"
+github "Quick/Quick" "v1.3.4"
+github "ZkHaider/MessageInputBar" "83e91fe05b75582fabce16cabf9ffa5646379906"
