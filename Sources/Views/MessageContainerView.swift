@@ -49,7 +49,7 @@ open class MessageContainerView: UIImageView {
         case .none, .custom:
             break
         case .bubble, .bubbleTail, .bubbleOutline, .bubbleTailOutline:
-            imageMask.frame = bounds
+            imageMask.frame = bounds.insetBy(dx: 0.0, dy: 2.0)
         }
     }
 
