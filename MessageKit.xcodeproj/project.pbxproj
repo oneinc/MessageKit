@@ -78,6 +78,7 @@
 		C45CC41A223F0D3700C382C7 /* mklogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C45CC416223F0D3600C382C7 /* mklogo.png */; };
 		C45CC41B223F0D3700C382C7 /* mklogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C45CC417223F0D3700C382C7 /* mklogo.jpg */; };
 		C45CC41C223F0D3700C382C7 /* MessageInputBarLayout.png in Resources */ = {isa = PBXBuildFile; fileRef = C45CC418223F0D3700C382C7 /* MessageInputBarLayout.png */; };
+		C4E09F192246877600D49993 /* MessageInputBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C42FF4C6220E1E32001F328D /* MessageInputBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,6 +352,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E09F192246877600D49993 /* MessageInputBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
